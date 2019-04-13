@@ -11,9 +11,9 @@ body{
     
     }
 
-.nav-li{
+nav > ul > li{
     
-    display: inline;
+    display: inline-block;
     list-style: none;
     margin: 0px 10px 0px 10px;
 }
@@ -65,6 +65,44 @@ hr{
     width: 80%; 
 }
 
-.copy{
+.copy {
     text-align: center;
-} 
+}
+
+.autores{
+    margin-top: 25px;
+}
+
+
+a{
+text-decoration: none;
+color: #0074c4;
+}
+
+a:hover {
+text-decoration: underline;
+color: #0098ff;
+}
+
+.principal{
+    float:left;
+    width: 70%;
+    margin-right:24px;
+}
+
+.recomendadas, aside {
+    float: left;
+    width: 25%;
+    margin-top: 95px;
+}
+
+.fecha {
+    margin-bottom: 30px;
+    color:#808080;
+    font-size: .75em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
